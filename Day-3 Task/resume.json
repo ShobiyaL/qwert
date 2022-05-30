@@ -1,0 +1,44 @@
+{
+   "basic":[{
+       "name":"Shobiya L",
+       "email_id":"sofy474@gmail.com",
+       "mobile_No.":8976563467
+   }],
+   "educational_qualification":[{
+       "UG":{
+           "instituteName":"IIHT",
+           "course":"Handloom and Textile Technology",
+           "duration":"2015-2019",
+           "CGPA":8.15
+       },
+       "HSC":{
+           "instituteName":"BVMS",
+           "duration":"2014-2015",
+           "percentage":89
+       }
+   }],
+   "work_experience":[{
+       "companyName":"colorJerseys",
+       "designation":"Management Trainee",
+       "no.of.years":1
+   }],    
+   "skills":[{
+            "name": "Web Development",
+            "level": "Intermediate",
+            "keywords": [
+              "HTML",
+              "CSS",
+              "JavaScript"
+            ]
+       },
+       {
+        "name": "Graphic Designing",
+        "level": "Intermediate",
+        "keywords": [
+          "photoshop",
+          "inkscape"
+        ]
+       }
+   ],
+   "certificate":"Internshala's Graphic Designing"   
+}
