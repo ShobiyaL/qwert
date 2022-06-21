@@ -1,0 +1,48 @@
+body{
+   background-image: url("1655736674406.jpeg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   width:100vw;
+   height:100vh;
+   
+}
+.text{
+    padding:7px;
+    border-radius: 3px;
+
+}
+.bText{
+    display:flex;
+    flex-direction:row;
+    gap:2px;
+    margin:10px;
+    padding:10px;
+}
+.cont{
+    margin:30px 20px ;
+    display:flex;
+    justify-content: flex-start;
+   
+}
+p,h3{
+    margin-left:30px;
+    color:aqua;
+}
+#list-items{
+    border:3px dashed aqua;
+    
+    width:450px;
+    color:peachpuff;  
+}
+#list-items>li{
+    color:azure(77, 3, 77); 
+}
+.pages{
+    color:aquamarine;
+}
+#author{
+    color:black;
+}
+#rd{
+    color:aqua;
+}
