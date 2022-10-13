@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+  }
+  
+  @media screen and (min-width: 900px) {
+    nav ul {
+      margin-left: 200px !important;
+    }
+    #name {
+      margin: 15%;
+    }
+    hr {
+      width: 49%;
+    }
+  
+  @media screen and (max-width: 600px) {
+    #name {
+      margin: 30%;
+    }
+    #achievements {
+      flex-direction: column;
+    }
+  }
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  #name {
+    margin-top: 15%;
+  }
+  #photo {
+    padding: 0 !important;
+  }
+  #photo img {
+    max-width: 300px;
+  }
+  span {
+    display: inline-block;
+    padding: 6px 14px;
+  }
+  span img {
+    font-size: inherit;
+    color: inherit;
+    height: 0.7em;
+  }
+  .external-links {
+    color: bisque;
+    cursor: pointer;
+  }
+  
+  @media screen and (max-width: 720px) {
+    .foot {
+      display: flex;
+      flex-direction: column;
+    }
+    hr {
+      display: inline-block;
+      width: 40%;
+    }
+    #achievements {
+      flex-direction: column;
+    }
+  }
+  
+  @media screen and (min-width: 730px) {
+    hr {
+      display: inline-block;
+      width: 44%;
+    }
+  
+    header {
+      height: 100vh;
+    }
+  }
+  
+  
+  header {
+    height: 100vh;
+  }
+  
+  /* this is for hr tag with content - done personally - So proud@myself */
+  strong {
+    position: relative;
+    bottom: 12.5px;
+  }
+  
+  .poems hr {
+    width: 34%;
+  }
+  .card-body {
+    font-size: smaller !important;
+  }
+  
+  @media screen and (max-width: 990px) {
+    #achievements {
+      flex-direction: column;
+    }
+    .achieve-lists {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+  
+ 
+}
