@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@400;500;600&family=Poppins:ital,wght@1,100&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:sans-serif;
+}
+
+body {
+    background-color: rgb(187, 192, 192);
+  }
+header{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    height:60px;
+    padding:5px;
+    margin:20px;
+    background-color: rgb(90, 92, 92);
+    box-shadow:0px 0px 20px rgb(252, 182, 182);
+    border-radius:4px;
+}
+h1{
+    color:rgb(238, 151, 151);
+    font-family:'Caveat',sans-serif;
+    letter-spacing:4px;  
+}
+main{
+    display:flex;
+    flex-direction:column;
+    align-items:center;    
+}
+main .table{
+    width:100%;
+    max-width:768px; 
+    /* border:1px solid black; */
+    
+}
+/* main .page_numbers{
+    width:100%;
+} */
+table{
+    width:100%;
+    background-color: rgba(112, 114, 114, 0.37);
+  border-collapse: collapse;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+ 
+}
+td,th{
+    
+  text-align: center;
+  padding: 8px;
+  border:none;
+  border-radius: 2px;
+}
+button {
+    padding: 5px 12px;
+    border: none;
+    outline: none;
+    margin:10px 2px;
+    cursor: pointer;
+    border-radius: 2px;
+    font-weight: 700;
+}
+  button:hover {
+    background-color:rgb(238, 151, 151);
+    
+  }
+  button:active {
+    background-color: rgb(90, 92, 92);  
+  }
+  .disable-button {
+    pointer-events: none;
+    /* background-color: rgba(204, 186, 194, 0.867); */
+  }
+  .active {
+    background-color: rgb(90, 92, 92);  
+    border: 2px solid #e27d60;
+    
+  }
+  
+  #input {
+    width: fit-content;
+    background-color: #c38d9e;
+  }
+  
+  @media screen and (min-width: 1201px) { */
+    /* extralarge */
+    header {
+      width: 100%;
+    }
+    main {
+      width: 90%;
+    }
+  }
+  @media screen and (max-width: 1200px) {
+    /* large */
+    header {
+      width: 95%;
+    }
+    main {
+      width: 960px;
+    }
+  }
+  @media screen and (max-width: 992px) {
+    /* medium */
+    header {
+      width: 96%;
+    }
+    main {
+      max-width: 720px;
+    }
+    #input {
+      margin: 2%;
+    }
+  }
+  @media screen and (max-width: 767px) {
+    /* small */
+    header {
+      width: 95%;
+    }
+    main {
+      max-width: 540px;
+    }
+    button {
+      padding: 4px 9px;
+    }
+    #input {
+      margin: 2%;
+    }
+  }
+  @media screen and (max-width: 576px) {
+    /* extra small */
+    header {
+      width: 90%;
+    }
+    main {
+      max-width: 90%;
+    }
+    button {
+      padding: 2px 8px;
+      margin-right: 0.2%;
+    }
+    
+    #input {
+      margin: 2%;
+    }
+  } 
